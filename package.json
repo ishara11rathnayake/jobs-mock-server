@@ -1,0 +1,14 @@
+{
+  "name": "json-server-project",
+  "version": "1.0.0",
+  "description": "A simple JSON server for serving mock data.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "json-server --watch src/data/db.json"
+  },
+  "dependencies": {
+    "json-server": "^0.17.0"
+  },
+  "author": "",
+  "license": "MIT"
+}
